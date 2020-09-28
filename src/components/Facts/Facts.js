@@ -18,7 +18,7 @@ const Facts = ({title, slides}) => {
 
     return (
         <section className="facts container">
-            <h2 className="facts-title">
+            <h2 className="facts-title" id="facts">
                 {title}
             </h2>
             <div className="swiper-button-prev"/>
